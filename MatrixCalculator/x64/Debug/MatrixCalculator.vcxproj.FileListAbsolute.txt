@@ -1,0 +1,3 @@
+D:\Универ\Курсачи\Курсач ОАИП, 1 курс\MatrixCalculator\MatrixCalculator\x64\Debug\MatrixCalculator.vcxproj.AssemblyReference.cache
+D:\Универ\Курсачи\Курсач ОАИП, 1 курс\MatrixCalculator\MatrixCalculator\x64\Debug\MatrixCalculator.MatrixCalculator.resources
+D:\Универ\Курсачи\Курсач ОАИП, 1 курс\MatrixCalculator\MatrixCalculator\x64\Debug\MatrixCalculator.vcxproj.GenerateResource.cache
