@@ -13,7 +13,6 @@ namespace CppCLRWinFormsProject {
 
 	public ref class MatrixCalculator : public System::Windows::Forms::Form
 	{
-		//array<Button^>^ buttons;
 		int rows1M = 3;
 		int columns1M = 3;
 		int rows2M = 3;
@@ -469,7 +468,6 @@ namespace CppCLRWinFormsProject {
 			   this->text233Box->Name = L"text233Box";
 			   this->text233Box->Size = System::Drawing::Size(71, 40);
 			   this->text233Box->TabIndex = 17;
-			   this->text233Box->TextChanged += gcnew System::EventHandler(this, &MatrixCalculator::text233Box_TextChanged);
 			   this->text233Box->Enter += gcnew System::EventHandler(this, &MatrixCalculator::TextBoxEnter);
 			   // 
 			   // text232Box
@@ -480,7 +478,6 @@ namespace CppCLRWinFormsProject {
 			   this->text232Box->Name = L"text232Box";
 			   this->text232Box->Size = System::Drawing::Size(71, 40);
 			   this->text232Box->TabIndex = 16;
-			   this->text232Box->TextChanged += gcnew System::EventHandler(this, &MatrixCalculator::text232Box_TextChanged);
 			   this->text232Box->Enter += gcnew System::EventHandler(this, &MatrixCalculator::TextBoxEnter);
 			   // 
 			   // text231Box
@@ -491,7 +488,6 @@ namespace CppCLRWinFormsProject {
 			   this->text231Box->Name = L"text231Box";
 			   this->text231Box->Size = System::Drawing::Size(71, 40);
 			   this->text231Box->TabIndex = 15;
-			   this->text231Box->TextChanged += gcnew System::EventHandler(this, &MatrixCalculator::text231Box_TextChanged);
 			   this->text231Box->Enter += gcnew System::EventHandler(this, &MatrixCalculator::TextBoxEnter);
 			   // 
 			   // text223Box
@@ -502,7 +498,6 @@ namespace CppCLRWinFormsProject {
 			   this->text223Box->Name = L"text223Box";
 			   this->text223Box->Size = System::Drawing::Size(71, 40);
 			   this->text223Box->TabIndex = 14;
-			   this->text223Box->TextChanged += gcnew System::EventHandler(this, &MatrixCalculator::text223Box_TextChanged);
 			   this->text223Box->Enter += gcnew System::EventHandler(this, &MatrixCalculator::TextBoxEnter);
 			   // 
 			   // text222Box
@@ -513,7 +508,6 @@ namespace CppCLRWinFormsProject {
 			   this->text222Box->Name = L"text222Box";
 			   this->text222Box->Size = System::Drawing::Size(71, 40);
 			   this->text222Box->TabIndex = 13;
-			   this->text222Box->TextChanged += gcnew System::EventHandler(this, &MatrixCalculator::text222Box_TextChanged);
 			   this->text222Box->Enter += gcnew System::EventHandler(this, &MatrixCalculator::TextBoxEnter);
 			   // 
 			   // text221Box
@@ -524,7 +518,6 @@ namespace CppCLRWinFormsProject {
 			   this->text221Box->Name = L"text221Box";
 			   this->text221Box->Size = System::Drawing::Size(71, 40);
 			   this->text221Box->TabIndex = 12;
-			   this->text221Box->TextChanged += gcnew System::EventHandler(this, &MatrixCalculator::text221Box_TextChanged);
 			   this->text221Box->Enter += gcnew System::EventHandler(this, &MatrixCalculator::TextBoxEnter);
 			   // 
 			   // text213Box
@@ -535,7 +528,6 @@ namespace CppCLRWinFormsProject {
 			   this->text213Box->Name = L"text213Box";
 			   this->text213Box->Size = System::Drawing::Size(71, 40);
 			   this->text213Box->TabIndex = 11;
-			   this->text213Box->TextChanged += gcnew System::EventHandler(this, &MatrixCalculator::text213Box_TextChanged);
 			   this->text213Box->Enter += gcnew System::EventHandler(this, &MatrixCalculator::TextBoxEnter);
 			   // 
 			   // text212Box
@@ -546,7 +538,6 @@ namespace CppCLRWinFormsProject {
 			   this->text212Box->Name = L"text212Box";
 			   this->text212Box->Size = System::Drawing::Size(71, 40);
 			   this->text212Box->TabIndex = 10;
-			   this->text212Box->TextChanged += gcnew System::EventHandler(this, &MatrixCalculator::text212Box_TextChanged);
 			   this->text212Box->Enter += gcnew System::EventHandler(this, &MatrixCalculator::TextBoxEnter);
 			   // 
 			   // text211Box
@@ -557,7 +548,6 @@ namespace CppCLRWinFormsProject {
 			   this->text211Box->Name = L"text211Box";
 			   this->text211Box->Size = System::Drawing::Size(71, 40);
 			   this->text211Box->TabIndex = 9;
-			   this->text211Box->TextChanged += gcnew System::EventHandler(this, &MatrixCalculator::text211Box_TextChanged);
 			   this->text211Box->Enter += gcnew System::EventHandler(this, &MatrixCalculator::TextBoxEnter);
 			   // 
 			   // text33Box
@@ -568,7 +558,6 @@ namespace CppCLRWinFormsProject {
 			   this->text33Box->Name = L"text33Box";
 			   this->text33Box->Size = System::Drawing::Size(71, 40);
 			   this->text33Box->TabIndex = 8;
-			   this->text33Box->TextChanged += gcnew System::EventHandler(this, &MatrixCalculator::text33Box_TextChanged);
 			   this->text33Box->Enter += gcnew System::EventHandler(this, &MatrixCalculator::TextBoxEnter);
 			   // 
 			   // text32Box
@@ -579,7 +568,6 @@ namespace CppCLRWinFormsProject {
 			   this->text32Box->Name = L"text32Box";
 			   this->text32Box->Size = System::Drawing::Size(71, 40);
 			   this->text32Box->TabIndex = 7;
-			   this->text32Box->TextChanged += gcnew System::EventHandler(this, &MatrixCalculator::text32Box_TextChanged);
 			   this->text32Box->Enter += gcnew System::EventHandler(this, &MatrixCalculator::TextBoxEnter);
 			   // 
 			   // text31Box
@@ -590,7 +578,6 @@ namespace CppCLRWinFormsProject {
 			   this->text31Box->Name = L"text31Box";
 			   this->text31Box->Size = System::Drawing::Size(71, 40);
 			   this->text31Box->TabIndex = 6;
-			   this->text31Box->TextChanged += gcnew System::EventHandler(this, &MatrixCalculator::text31Box_TextChanged);
 			   this->text31Box->Enter += gcnew System::EventHandler(this, &MatrixCalculator::TextBoxEnter);
 			   // 
 			   // text23Box
@@ -601,7 +588,6 @@ namespace CppCLRWinFormsProject {
 			   this->text23Box->Name = L"text23Box";
 			   this->text23Box->Size = System::Drawing::Size(71, 40);
 			   this->text23Box->TabIndex = 5;
-			   this->text23Box->TextChanged += gcnew System::EventHandler(this, &MatrixCalculator::text23Box_TextChanged);
 			   this->text23Box->Enter += gcnew System::EventHandler(this, &MatrixCalculator::TextBoxEnter);
 			   // 
 			   // text22Box
@@ -612,7 +598,6 @@ namespace CppCLRWinFormsProject {
 			   this->text22Box->Name = L"text22Box";
 			   this->text22Box->Size = System::Drawing::Size(71, 40);
 			   this->text22Box->TabIndex = 4;
-			   this->text22Box->TextChanged += gcnew System::EventHandler(this, &MatrixCalculator::text22Box_TextChanged);
 			   this->text22Box->Enter += gcnew System::EventHandler(this, &MatrixCalculator::TextBoxEnter);
 			   // 
 			   // text21Box
@@ -623,7 +608,6 @@ namespace CppCLRWinFormsProject {
 			   this->text21Box->Name = L"text21Box";
 			   this->text21Box->Size = System::Drawing::Size(71, 40);
 			   this->text21Box->TabIndex = 3;
-			   this->text21Box->TextChanged += gcnew System::EventHandler(this, &MatrixCalculator::text21Box_TextChanged);
 			   this->text21Box->Enter += gcnew System::EventHandler(this, &MatrixCalculator::TextBoxEnter);
 			   // 
 			   // text13Box
@@ -634,7 +618,6 @@ namespace CppCLRWinFormsProject {
 			   this->text13Box->Name = L"text13Box";
 			   this->text13Box->Size = System::Drawing::Size(71, 40);
 			   this->text13Box->TabIndex = 2;
-			   this->text13Box->TextChanged += gcnew System::EventHandler(this, &MatrixCalculator::text13Box_TextChanged);
 			   this->text13Box->Enter += gcnew System::EventHandler(this, &MatrixCalculator::TextBoxEnter);
 			   // 
 			   // text12Box
@@ -645,7 +628,6 @@ namespace CppCLRWinFormsProject {
 			   this->text12Box->Name = L"text12Box";
 			   this->text12Box->Size = System::Drawing::Size(71, 40);
 			   this->text12Box->TabIndex = 1;
-			   this->text12Box->TextChanged += gcnew System::EventHandler(this, &MatrixCalculator::text12Box_TextChanged);
 			   this->text12Box->Enter += gcnew System::EventHandler(this, &MatrixCalculator::TextBoxEnter);
 			   // 
 			   // text11Box
@@ -658,7 +640,6 @@ namespace CppCLRWinFormsProject {
 			   this->text11Box->Name = L"text11Box";
 			   this->text11Box->Size = System::Drawing::Size(71, 40);
 			   this->text11Box->TabIndex = 0;
-			   this->text11Box->TextChanged += gcnew System::EventHandler(this, &MatrixCalculator::text11Box_TextChanged);
 			   this->text11Box->Enter += gcnew System::EventHandler(this, &MatrixCalculator::TextBoxEnter);
 			   // 
 			   // ResultPanel
@@ -781,6 +762,7 @@ namespace CppCLRWinFormsProject {
 				   static_cast<System::Byte>(204)));
 			   this->textR11Box->Location = System::Drawing::Point(54, 87);
 			   this->textR11Box->Name = L"textR11Box";
+			   this->textR11Box->ReadOnly = true;
 			   this->textR11Box->Size = System::Drawing::Size(71, 40);
 			   this->textR11Box->TabIndex = 18;
 			   // 
@@ -1013,92 +995,63 @@ namespace CppCLRWinFormsProject {
 		this->textR33Box->ReadOnly = true;
 	}
 
-	private: System::Void oneMatrixMode_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
-		dimLabel2->Hide();
-		label2->Hide();
-		comboBox2->Hide();
-		transposeButton->Show();
-		inverseButton->Show();
-		findDetButton->Show();
-		findButton->Hide();
-		comboBoxOperator->Hide();
-		text211Box->Hide();
-		text212Box->Hide();
-		text213Box->Hide();
-		text221Box->Hide();
-		text222Box->Hide();
-		text223Box->Hide();
-		text231Box->Hide();
-		text232Box->Hide();
-		text233Box->Hide();
-		textR11Box->Hide();
-		textR12Box->Hide();
-		textR13Box->Hide();
-		textR21Box->Hide();
-		textR22Box->Hide();
-		textR23Box->Hide();
-		textR31Box->Hide();
-		textR32Box->Hide();
-		textR33Box->Hide();
-	}
-	private: System::Void twoMatrixMode_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
-		detLabel->Hide();
-		dimLabel2->Show();
-		label2->Show();
-		comboBox2->Show();
-		transposeButton->Hide();
-		inverseButton->Hide();
-		findDetButton->Hide();
-		findButton->Show();
-		comboBoxOperator->Show();
-		text211Box->Show();
-		text212Box->Show();
-		text213Box->Show();
-		text221Box->Show();
-		text222Box->Show();
-		text223Box->Show();
-		text231Box->Show();
-		text232Box->Show();
-		text233Box->Show();
-		textR11Box->Show();
-		textR12Box->Show();
-		textR13Box->Show();
-		textR21Box->Show();
-		textR22Box->Show();
-		textR23Box->Show();
-		textR31Box->Show();
-		textR32Box->Show();
-		textR33Box->Show();
-	}
-
-
-		   // TEXT CHANGING 1 MATRIX
-	private: System::Void text11Box_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
-	private: System::Void text12Box_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
-	private: System::Void text13Box_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
-
-	private: System::Void text21Box_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
-	private: System::Void text22Box_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
-	private: System::Void text23Box_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
-
-	private: System::Void text31Box_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
-	private: System::Void text32Box_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
-	private: System::Void text33Box_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
-
-		   // TEXT CHANGING 2 MATRIX	
-	private: System::Void text211Box_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
-	private: System::Void text212Box_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
-	private: System::Void text213Box_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
-
-	private: System::Void text221Box_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
-	private: System::Void text222Box_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
-	private: System::Void text223Box_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
-
-	private: System::Void text231Box_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
-	private: System::Void text232Box_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
-	private: System::Void text233Box_TextChanged(System::Object^ sender, System::EventArgs^ e) {}
-
-	private: System::Void textBoxSymbol_TextChanged(System::Object^ sender, System::EventArgs^ e) {};
+		   System::Void oneMatrixMode_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
+			   dimLabel2->Hide();
+			   label2->Hide();
+			   comboBox2->Hide();
+			   transposeButton->Show();
+			   inverseButton->Show();
+			   findDetButton->Show();
+			   findButton->Hide();
+			   comboBoxOperator->Hide();
+			   text211Box->Hide();
+			   text212Box->Hide();
+			   text213Box->Hide();
+			   text221Box->Hide();
+			   text222Box->Hide();
+			   text223Box->Hide();
+			   text231Box->Hide();
+			   text232Box->Hide();
+			   text233Box->Hide();
+			   textR11Box->Hide();
+			   textR12Box->Hide();
+			   textR13Box->Hide();
+			   textR21Box->Hide();
+			   textR22Box->Hide();
+			   textR23Box->Hide();
+			   textR31Box->Hide();
+			   textR32Box->Hide();
+			   textR33Box->Hide();
+		   }
+		   System::Void twoMatrixMode_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
+			   detLabel->Hide();
+			   dimLabel2->Show();
+			   label2->Show();
+			   comboBox2->Show();
+			   transposeButton->Hide();
+			   inverseButton->Hide();
+			   findDetButton->Hide();
+			   findButton->Show();
+			   comboBoxOperator->Show();
+			   text211Box->Show();
+			   text212Box->Show();
+			   text213Box->Show();
+			   text221Box->Show();
+			   text222Box->Show();
+			   text223Box->Show();
+			   text231Box->Show();
+			   text232Box->Show();
+			   text233Box->Show();
+			   textR11Box->Show();
+			   textR12Box->Show();
+			   textR13Box->Show();
+			   textR21Box->Show();
+			   textR22Box->Show();
+			   textR23Box->Show();
+			   textR31Box->Show();
+			   textR32Box->Show();
+			   textR33Box->Show();
+		   }
 
 		   System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
 			   if (this->comboBox1->SelectedIndex == 0) {
@@ -1329,7 +1282,7 @@ namespace CppCLRWinFormsProject {
 			   Button^ button = dynamic_cast<Button^>(sender);
 			   String^ value = button->Text;
 
-			   if (button->Text == "del" && focusedTextBox-> Text != "")
+			   if (button->Text == "del" && focusedTextBox->Text != "")
 			   {
 				   int selectionStart = focusedTextBox->SelectionStart;
 				   focusedTextBox->Text = focusedTextBox->Text->Remove(selectionStart - 1, 1);
@@ -1348,7 +1301,6 @@ namespace CppCLRWinFormsProject {
 		   System::Void TextBoxEnter(Object^ sender, EventArgs^ e)
 		   {
 			   TextBox^ textBox = dynamic_cast<TextBox^>(sender);
-			   //textBox->BackColor = System::Drawing::Color::LightGray;
 			   focusedTextBox = textBox;
 		   }
 
@@ -1555,5 +1507,5 @@ namespace CppCLRWinFormsProject {
 			   }
 		   }
 
-	};
+};
 }
