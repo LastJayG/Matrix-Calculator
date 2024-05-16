@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447\u0438\\\u041A\u0443\u0440\u0441\u0430\u0447 \u041E\u0410\u0418\u041F, 1 \u043A\u0443\u0440\u0441\\MatrixCalculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447\u0438\\\u041A\u0443\u0440\u0441\u0430\u0447 \u041E\u0410\u0418\u041F, 1 \u043A\u0443\u0440\u0441\\MatrixCalculator\\MatrixCalculator\\MatrixCalculator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MatrixCalculator\\MatrixCalculator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EF8F6538-0D69-47AE-897C-43728DEE4B65}|MatrixCalculator\\MatrixCalculator.vcxproj|D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447\u0438\\\u041A\u0443\u0440\u0441\u0430\u0447 \u041E\u0410\u0418\u041F, 1 \u043A\u0443\u0440\u0441\\MatrixCalculator\\MatrixCalculator\\MatrixCalculator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EF8F6538-0D69-47AE-897C-43728DEE4B65}|MatrixCalculator\\MatrixCalculator.vcxproj|solutionrelative:MatrixCalculator\\MatrixCalculator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447\u0438\\\u041A\u0443\u0440\u0441\u0430\u0447 \u041E\u0410\u0418\u041F, 1 \u043A\u0443\u0440\u0441\\MatrixCalculator\\MatrixCalculator\\MatrixFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MatrixCalculator\\MatrixFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EF8F6538-0D69-47AE-897C-43728DEE4B65}|MatrixCalculator\\MatrixCalculator.vcxproj|D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447\u0438\\\u041A\u0443\u0440\u0441\u0430\u0447 \u041E\u0410\u0418\u041F, 1 \u043A\u0443\u0440\u0441\\MatrixCalculator\\MatrixCalculator\\MatrixFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EF8F6538-0D69-47AE-897C-43728DEE4B65}|MatrixCalculator\\MatrixCalculator.vcxproj|solutionrelative:MatrixCalculator\\MatrixFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447\u0438\\\u041A\u0443\u0440\u0441\u0430\u0447 \u041E\u0410\u0418\u041F, 1 \u043A\u0443\u0440\u0441\\MatrixCalculator\\MatrixCalculator\\MatrixFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MatrixCalculator\\MatrixFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EF8F6538-0D69-47AE-897C-43728DEE4B65}|MatrixCalculator\\MatrixCalculator.vcxproj|D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447\u0438\\\u041A\u0443\u0440\u0441\u0430\u0447 \u041E\u0410\u0418\u041F, 1 \u043A\u0443\u0440\u0441\\MatrixCalculator\\MatrixCalculator\\MatrixCalculator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{EF8F6538-0D69-47AE-897C-43728DEE4B65}|MatrixCalculator\\MatrixCalculator.vcxproj|solutionrelative:MatrixCalculator\\MatrixCalculator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447\u0438\\\u041A\u0443\u0440\u0441\u0430\u0447 \u041E\u0410\u0418\u041F, 1 \u043A\u0443\u0440\u0441\\MatrixCalculator\\MatrixCalculator\\CppCLR_WinFormsProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MatrixCalculator\\CppCLR_WinFormsProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EF8F6538-0D69-47AE-897C-43728DEE4B65}|MatrixCalculator\\MatrixCalculator.vcxproj|D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447\u0438\\\u041A\u0443\u0440\u0441\u0430\u0447 \u041E\u0410\u0418\u041F, 1 \u043A\u0443\u0440\u0441\\MatrixCalculator\\MatrixCalculator\\CppCLR_WinFormsProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EF8F6538-0D69-47AE-897C-43728DEE4B65}|MatrixCalculator\\MatrixCalculator.vcxproj|solutionrelative:MatrixCalculator\\CppCLR_WinFormsProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447\u0438\\\u041A\u0443\u0440\u0441\u0430\u0447 \u041E\u0410\u0418\u041F, 1 \u043A\u0443\u0440\u0441\\MatrixCalculator\\MatrixCalculator\\MatrixCalculator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MatrixCalculator\\MatrixCalculator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+      "AbsoluteMoniker": "D:0:0:{EF8F6538-0D69-47AE-897C-43728DEE4B65}|MatrixCalculator\\MatrixCalculator.vcxproj|D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447\u0438\\\u041A\u0443\u0440\u0441\u0430\u0447 \u041E\u0410\u0418\u041F, 1 \u043A\u0443\u0440\u0441\\MatrixCalculator\\MatrixCalculator\\MatrixFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EF8F6538-0D69-47AE-897C-43728DEE4B65}|MatrixCalculator\\MatrixCalculator.vcxproj|solutionrelative:MatrixCalculator\\MatrixFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "MatrixCalculator\\MatrixCalculator.h",
               "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447\u0438\\\u041A\u0443\u0440\u0441\u0430\u0447 \u041E\u0410\u0418\u041F, 1 \u043A\u0443\u0440\u0441\\MatrixCalculator\\MatrixCalculator\\MatrixCalculator.h",
               "RelativeToolTip": "MatrixCalculator\\MatrixCalculator.h",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAcwEgEAAA8AAAA",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAuwAEFAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-13T08:10:35.3Z",
               "IsPinned": true,
@@ -56,19 +56,21 @@
               "RelativeToolTip": "MatrixCalculator\\MatrixFunctions.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-10T12:45:09.183Z"
+              "WhenOpened": "2024-05-10T12:45:09.183Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MatrixFunctions.cpp",
               "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447\u0438\\\u041A\u0443\u0440\u0441\u0430\u0447 \u041E\u0410\u0418\u041F, 1 \u043A\u0443\u0440\u0441\\MatrixCalculator\\MatrixCalculator\\MatrixFunctions.cpp",
               "RelativeDocumentMoniker": "MatrixCalculator\\MatrixFunctions.cpp",
               "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447\u0438\\\u041A\u0443\u0440\u0441\u0430\u0447 \u041E\u0410\u0418\u041F, 1 \u043A\u0443\u0440\u0441\\MatrixCalculator\\MatrixCalculator\\MatrixFunctions.cpp",
               "RelativeToolTip": "MatrixCalculator\\MatrixFunctions.cpp",
-              "ViewState": "AQIAAIUAAAAAAAAAAAAIwJcAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-10T12:45:35.96Z"
+              "WhenOpened": "2024-05-10T12:45:35.96Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -80,18 +82,20 @@
               "RelativeToolTip": "MatrixCalculator\\CppCLR_WinFormsProject.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-12T16:21:40.823Z"
+              "WhenOpened": "2024-04-12T16:21:40.823Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MatrixCalculator.h",
+              "DocumentIndex": 2,
+              "Title": "MatrixCalculator.h [Design]",
               "DocumentMoniker": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447\u0438\\\u041A\u0443\u0440\u0441\u0430\u0447 \u041E\u0410\u0418\u041F, 1 \u043A\u0443\u0440\u0441\\MatrixCalculator\\MatrixCalculator\\MatrixCalculator.h",
               "RelativeDocumentMoniker": "MatrixCalculator\\MatrixCalculator.h",
-              "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447\u0438\\\u041A\u0443\u0440\u0441\u0430\u0447 \u041E\u0410\u0418\u041F, 1 \u043A\u0443\u0440\u0441\\MatrixCalculator\\MatrixCalculator\\MatrixCalculator.h",
-              "RelativeToolTip": "MatrixCalculator\\MatrixCalculator.h",
+              "ToolTip": "D:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447\u0438\\\u041A\u0443\u0440\u0441\u0430\u0447 \u041E\u0410\u0418\u041F, 1 \u043A\u0443\u0440\u0441\\MatrixCalculator\\MatrixCalculator\\MatrixCalculator.h [Design]",
+              "RelativeToolTip": "MatrixCalculator\\MatrixCalculator.h [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-13T08:14:03.466Z"
+              "WhenOpened": "2024-04-13T08:14:03.466Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

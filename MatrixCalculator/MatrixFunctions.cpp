@@ -17,7 +17,6 @@ double FindDet(int rows, int columns, double** matrix)
 
     for (int i = 0; i < columns; i++)
     {
-        // Создаем подматрицу без первой строки и текущего столбца
         int subRows = rows - 1;
         int subColumns = columns - 1;
         double** subMatrix = new double* [subRows];
@@ -142,7 +141,6 @@ double** SubstractMatrices(int rows, int columns, double** matrix1, double** mat
 
 
 double** MultiplyMatrices(int rows1, int rowcol, int columns2, double** matrix1, double** matrix2) {
-    // Создаем новую матрицу для результата умножения
     double** result = new double* [rows1];
     for (int i = 0; i < rows1; ++i) {
         result[i] = new double[columns2];
