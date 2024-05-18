@@ -1,6 +1,5 @@
 #pragma once
 #include "MatrixFunctions.h"
-
 namespace CppCLRWinFormsProject {
 
 	using namespace System;
@@ -20,7 +19,8 @@ namespace CppCLRWinFormsProject {
 		array<array<TextBox^>^>^ textBoxes1M;
 		array<array<TextBox^>^>^ textBoxes2M;
 		array<array<TextBox^>^>^ textBoxesRM;
-		array<Button^>^ buttons;
+	private: System::Windows::Forms::Button^ buttonDot;
+		   array<Button^>^ buttons;
 
 	public:
 		MatrixCalculator()
@@ -170,6 +170,7 @@ namespace CppCLRWinFormsProject {
 			   this->textR12Box = (gcnew System::Windows::Forms::TextBox());
 			   this->textR11Box = (gcnew System::Windows::Forms::TextBox());
 			   this->SymbolPanel = (gcnew System::Windows::Forms::Panel());
+			   this->buttonDot = (gcnew System::Windows::Forms::Button());
 			   this->buttonDelete = (gcnew System::Windows::Forms::Button());
 			   this->buttonMinus = (gcnew System::Windows::Forms::Button());
 			   this->button0 = (gcnew System::Windows::Forms::Button());
@@ -666,7 +667,7 @@ namespace CppCLRWinFormsProject {
 			   this->detLabel->AutoSize = true;
 			   this->detLabel->Font = (gcnew System::Drawing::Font(L"Verdana", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				   static_cast<System::Byte>(204)));
-			   this->detLabel->Location = System::Drawing::Point(48, 87);
+			   this->detLabel->Location = System::Drawing::Point(38, 87);
 			   this->detLabel->Name = L"detLabel";
 			   this->detLabel->Size = System::Drawing::Size(0, 23);
 			   this->detLabel->TabIndex = 28;
@@ -757,7 +758,7 @@ namespace CppCLRWinFormsProject {
 			   // 
 			   // textR11Box
 			   // 
-			   this->textR11Box->BackColor = System::Drawing::SystemColors::Window;
+			   this->textR11Box->BackColor = System::Drawing::SystemColors::MenuBar;
 			   this->textR11Box->Font = (gcnew System::Drawing::Font(L"Tahoma", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				   static_cast<System::Byte>(204)));
 			   this->textR11Box->Location = System::Drawing::Point(54, 87);
@@ -769,6 +770,7 @@ namespace CppCLRWinFormsProject {
 			   // SymbolPanel
 			   // 
 			   this->SymbolPanel->BackColor = System::Drawing::SystemColors::GradientActiveCaption;
+			   this->SymbolPanel->Controls->Add(this->buttonDot);
 			   this->SymbolPanel->Controls->Add(this->buttonDelete);
 			   this->SymbolPanel->Controls->Add(this->buttonMinus);
 			   this->SymbolPanel->Controls->Add(this->button0);
@@ -786,14 +788,27 @@ namespace CppCLRWinFormsProject {
 			   this->SymbolPanel->Size = System::Drawing::Size(306, 396);
 			   this->SymbolPanel->TabIndex = 4;
 			   // 
+			   // buttonDot
+			   // 
+			   this->buttonDot->Cursor = System::Windows::Forms::Cursors::Hand;
+			   this->buttonDot->Font = (gcnew System::Drawing::Font(L"Verdana", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				   static_cast<System::Byte>(0)));
+			   this->buttonDot->Location = System::Drawing::Point(110, 307);
+			   this->buttonDot->Name = L"buttonDot";
+			   this->buttonDot->Size = System::Drawing::Size(90, 70);
+			   this->buttonDot->TabIndex = 15;
+			   this->buttonDot->Text = L",";
+			   this->buttonDot->UseVisualStyleBackColor = true;
+			   this->buttonDot->Click += gcnew System::EventHandler(this, &MatrixCalculator::ButtonClick);
+			   // 
 			   // buttonDelete
 			   // 
 			   this->buttonDelete->Cursor = System::Windows::Forms::Cursors::Hand;
 			   this->buttonDelete->Font = (gcnew System::Drawing::Font(L"Verdana", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				   static_cast<System::Byte>(0)));
-			   this->buttonDelete->Location = System::Drawing::Point(206, 284);
+			   this->buttonDelete->Location = System::Drawing::Point(206, 307);
 			   this->buttonDelete->Name = L"buttonDelete";
-			   this->buttonDelete->Size = System::Drawing::Size(90, 85);
+			   this->buttonDelete->Size = System::Drawing::Size(90, 70);
 			   this->buttonDelete->TabIndex = 14;
 			   this->buttonDelete->Text = L"del";
 			   this->buttonDelete->UseVisualStyleBackColor = true;
@@ -804,9 +819,9 @@ namespace CppCLRWinFormsProject {
 			   this->buttonMinus->Cursor = System::Windows::Forms::Cursors::Hand;
 			   this->buttonMinus->Font = (gcnew System::Drawing::Font(L"Verdana", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				   static_cast<System::Byte>(0)));
-			   this->buttonMinus->Location = System::Drawing::Point(14, 284);
+			   this->buttonMinus->Location = System::Drawing::Point(14, 307);
 			   this->buttonMinus->Name = L"buttonMinus";
-			   this->buttonMinus->Size = System::Drawing::Size(90, 85);
+			   this->buttonMinus->Size = System::Drawing::Size(90, 70);
 			   this->buttonMinus->TabIndex = 13;
 			   this->buttonMinus->Text = L"-";
 			   this->buttonMinus->UseVisualStyleBackColor = true;
@@ -817,9 +832,9 @@ namespace CppCLRWinFormsProject {
 			   this->button0->Cursor = System::Windows::Forms::Cursors::Hand;
 			   this->button0->Font = (gcnew System::Drawing::Font(L"Verdana", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				   static_cast<System::Byte>(0)));
-			   this->button0->Location = System::Drawing::Point(110, 284);
+			   this->button0->Location = System::Drawing::Point(110, 231);
 			   this->button0->Name = L"button0";
-			   this->button0->Size = System::Drawing::Size(90, 85);
+			   this->button0->Size = System::Drawing::Size(90, 70);
 			   this->button0->TabIndex = 9;
 			   this->button0->Text = L"0";
 			   this->button0->UseVisualStyleBackColor = true;
@@ -830,9 +845,9 @@ namespace CppCLRWinFormsProject {
 			   this->button9->Cursor = System::Windows::Forms::Cursors::Hand;
 			   this->button9->Font = (gcnew System::Drawing::Font(L"Verdana", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				   static_cast<System::Byte>(0)));
-			   this->button9->Location = System::Drawing::Point(206, 193);
+			   this->button9->Location = System::Drawing::Point(206, 155);
 			   this->button9->Name = L"button9";
-			   this->button9->Size = System::Drawing::Size(90, 85);
+			   this->button9->Size = System::Drawing::Size(90, 70);
 			   this->button9->TabIndex = 8;
 			   this->button9->Text = L"9";
 			   this->button9->UseVisualStyleBackColor = true;
@@ -843,9 +858,9 @@ namespace CppCLRWinFormsProject {
 			   this->button8->Cursor = System::Windows::Forms::Cursors::Hand;
 			   this->button8->Font = (gcnew System::Drawing::Font(L"Verdana", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				   static_cast<System::Byte>(0)));
-			   this->button8->Location = System::Drawing::Point(110, 193);
+			   this->button8->Location = System::Drawing::Point(110, 155);
 			   this->button8->Name = L"button8";
-			   this->button8->Size = System::Drawing::Size(90, 85);
+			   this->button8->Size = System::Drawing::Size(90, 70);
 			   this->button8->TabIndex = 7;
 			   this->button8->Text = L"8";
 			   this->button8->UseVisualStyleBackColor = true;
@@ -856,9 +871,9 @@ namespace CppCLRWinFormsProject {
 			   this->button7->Cursor = System::Windows::Forms::Cursors::Hand;
 			   this->button7->Font = (gcnew System::Drawing::Font(L"Verdana", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				   static_cast<System::Byte>(0)));
-			   this->button7->Location = System::Drawing::Point(14, 193);
+			   this->button7->Location = System::Drawing::Point(14, 155);
 			   this->button7->Name = L"button7";
-			   this->button7->Size = System::Drawing::Size(90, 85);
+			   this->button7->Size = System::Drawing::Size(90, 70);
 			   this->button7->TabIndex = 6;
 			   this->button7->Text = L"7";
 			   this->button7->UseVisualStyleBackColor = true;
@@ -869,9 +884,9 @@ namespace CppCLRWinFormsProject {
 			   this->button6->Cursor = System::Windows::Forms::Cursors::Hand;
 			   this->button6->Font = (gcnew System::Drawing::Font(L"Verdana", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				   static_cast<System::Byte>(0)));
-			   this->button6->Location = System::Drawing::Point(206, 102);
+			   this->button6->Location = System::Drawing::Point(206, 83);
 			   this->button6->Name = L"button6";
-			   this->button6->Size = System::Drawing::Size(90, 85);
+			   this->button6->Size = System::Drawing::Size(90, 70);
 			   this->button6->TabIndex = 5;
 			   this->button6->Text = L"6";
 			   this->button6->UseVisualStyleBackColor = true;
@@ -882,9 +897,9 @@ namespace CppCLRWinFormsProject {
 			   this->button5->Cursor = System::Windows::Forms::Cursors::Hand;
 			   this->button5->Font = (gcnew System::Drawing::Font(L"Verdana", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				   static_cast<System::Byte>(0)));
-			   this->button5->Location = System::Drawing::Point(110, 102);
+			   this->button5->Location = System::Drawing::Point(110, 83);
 			   this->button5->Name = L"button5";
-			   this->button5->Size = System::Drawing::Size(90, 85);
+			   this->button5->Size = System::Drawing::Size(90, 70);
 			   this->button5->TabIndex = 4;
 			   this->button5->Text = L"5";
 			   this->button5->UseVisualStyleBackColor = true;
@@ -895,9 +910,9 @@ namespace CppCLRWinFormsProject {
 			   this->button4->Cursor = System::Windows::Forms::Cursors::Hand;
 			   this->button4->Font = (gcnew System::Drawing::Font(L"Verdana", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				   static_cast<System::Byte>(0)));
-			   this->button4->Location = System::Drawing::Point(14, 102);
+			   this->button4->Location = System::Drawing::Point(14, 83);
 			   this->button4->Name = L"button4";
-			   this->button4->Size = System::Drawing::Size(90, 85);
+			   this->button4->Size = System::Drawing::Size(90, 70);
 			   this->button4->TabIndex = 3;
 			   this->button4->Text = L"4";
 			   this->button4->UseVisualStyleBackColor = true;
@@ -910,7 +925,7 @@ namespace CppCLRWinFormsProject {
 				   static_cast<System::Byte>(0)));
 			   this->button3->Location = System::Drawing::Point(206, 11);
 			   this->button3->Name = L"button3";
-			   this->button3->Size = System::Drawing::Size(90, 85);
+			   this->button3->Size = System::Drawing::Size(90, 70);
 			   this->button3->TabIndex = 2;
 			   this->button3->Text = L"3";
 			   this->button3->UseVisualStyleBackColor = true;
@@ -923,7 +938,7 @@ namespace CppCLRWinFormsProject {
 				   static_cast<System::Byte>(0)));
 			   this->button2->Location = System::Drawing::Point(110, 11);
 			   this->button2->Name = L"button2";
-			   this->button2->Size = System::Drawing::Size(90, 85);
+			   this->button2->Size = System::Drawing::Size(90, 70);
 			   this->button2->TabIndex = 1;
 			   this->button2->Text = L"2";
 			   this->button2->UseVisualStyleBackColor = true;
@@ -936,7 +951,7 @@ namespace CppCLRWinFormsProject {
 				   static_cast<System::Byte>(0)));
 			   this->button1->Location = System::Drawing::Point(14, 11);
 			   this->button1->Name = L"button1";
-			   this->button1->Size = System::Drawing::Size(90, 85);
+			   this->button1->Size = System::Drawing::Size(90, 70);
 			   this->button1->TabIndex = 0;
 			   this->button1->Text = L"1";
 			   this->button1->UseVisualStyleBackColor = true;
@@ -1051,6 +1066,15 @@ namespace CppCLRWinFormsProject {
 			   textR31Box->Show();
 			   textR32Box->Show();
 			   textR33Box->Show();
+			   textR11Box->Text = "";
+			   textR12Box->Text = "";
+			   textR13Box->Text = "";
+			   textR21Box->Text = "";
+			   textR22Box->Text = "";
+			   textR23Box->Text = "";
+			   textR31Box->Text = "";
+			   textR32Box->Text = "";
+			   textR33Box->Text = "";
 		   }
 
 		   System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
@@ -1279,23 +1303,60 @@ namespace CppCLRWinFormsProject {
 
 		   System::Void ButtonClick(Object^ sender, EventArgs^ e)
 		   {
+			   if (focusedTextBox == nullptr) return;
 			   Button^ button = dynamic_cast<Button^>(sender);
 			   String^ value = button->Text;
-
-			   if (button->Text == "del" && focusedTextBox->Text != "")
+			   String^ text = focusedTextBox->Text;
+			   //System::Char lastCharacter = text[text->Length - 1];
+			   if (value == "," && text->Length == 0) return;
+			   if (value == "0" && text == "0") return;
+			   if (value == "del" && focusedTextBox->Text != "")
 			   {
 				   int selectionStart = focusedTextBox->SelectionStart;
-				   focusedTextBox->Text = focusedTextBox->Text->Remove(selectionStart - 1, 1);
-				   focusedTextBox->SelectionStart = selectionStart - 1;
-				   focusedTextBox->SelectionLength = 0;
+				   int selectionLength = focusedTextBox->SelectionLength;
+
+				   if (selectionLength > 0)
+				   {
+					   focusedTextBox->Text = focusedTextBox->Text->Remove(selectionStart, selectionLength);
+					   focusedTextBox->SelectionStart = selectionStart;
+					   focusedTextBox->SelectionLength = 0;
+				   }
+				   else if (selectionStart > 0)
+				   {
+					   focusedTextBox->Text = focusedTextBox->Text->Remove(selectionStart - 1, 1);
+					   focusedTextBox->SelectionStart = selectionStart - 1;
+					   focusedTextBox->SelectionLength = 0;
+				   }
+				   return;
 			   }
-			   else if (button->Text != "del")
-			   {
+			   if (value == "-") {
+				   for each (char symb in text) {
+					   if (symb == '-') return;
+				   }
+				   if (focusedTextBox->SelectionStart != 0) return;
 				   int selectionStart = focusedTextBox->SelectionStart;
 				   focusedTextBox->Text = focusedTextBox->Text->Insert(selectionStart, value);
-				   focusedTextBox->SelectionStart = selectionStart + value->Length;
+				   focusedTextBox->SelectionStart = selectionStart + 1;
 				   focusedTextBox->SelectionLength = 0;
 			   }
+			   if (value == "," && text->Length != 0) {
+				   for each (char symb in text) {
+					   if (symb == ',' || text[text->Length - 1] == '-' || focusedTextBox-> SelectionStart ==0) return;
+				   }
+				   int selectionStart = focusedTextBox->SelectionStart;
+				   focusedTextBox->Text = focusedTextBox->Text->Insert(selectionStart, value);
+				   focusedTextBox->SelectionStart = selectionStart + 1;
+				   focusedTextBox->SelectionLength = 0;
+				   return;
+			   }
+			   if (value == "0" || value == "1" || value == "2" || value == "3" || value == "4"
+				   || value == "5" || value == "6" || value == "7" || value == "8" || value == "9") {
+				   int selectionStart = focusedTextBox->SelectionStart;
+				   focusedTextBox->Text = focusedTextBox->Text->Insert(selectionStart, value);
+				   focusedTextBox->SelectionStart = selectionStart + 1;
+				   focusedTextBox->SelectionLength = 0;
+			   }
+			   else return;
 		   }
 
 		   System::Void TextBoxEnter(Object^ sender, EventArgs^ e)
@@ -1318,7 +1379,7 @@ namespace CppCLRWinFormsProject {
 					   }
 					   else
 					   {
-						   firstMatrix[i][j] = 0; // Например, присвоить 0.
+						   firstMatrix[i][j] = 0; 
 					   }
 				   }
 			   }
@@ -1340,7 +1401,7 @@ namespace CppCLRWinFormsProject {
 					   }
 					   else
 					   {
-						   secondMatrix[i][j] = 0; // Например, присвоить 0.
+						   secondMatrix[i][j] = 0; 
 					   }
 				   }
 			   }
@@ -1348,6 +1409,22 @@ namespace CppCLRWinFormsProject {
 			   return secondMatrix;
 		   }
 
+		   void TransposeMatrix(int rows, int columns, array<array<TextBox^>^>^ textBoxes1M, array<array<TextBox^>^>^ textBoxesRM) {
+			   for (int i = 0; i < columns; i++) {
+				   for (int j = 0; j < rows; j++) {
+					   textBoxesRM[i][j]->Text = textBoxes1M[j][i]->Text;
+					   textBoxesRM[i][j]->Visible = true;
+				   }
+			   }
+
+			   for (int i = columns; i < textBoxesRM->GetLength(0); i++) {
+				   for (int j = 0; j < rows; j++) {
+					   textBoxesRM[i][j]->Text = "";
+					   textBoxesRM[i][j]->Visible = false;
+				   }
+			   }
+		   }
+		   
 		   bool IsEmptyMatrix(int rows, int columns, array<array<TextBox^>^>^ textBoxesM) {
 			   bool isEmpty = false;
 			   for (int i = 0; i < rows; i++) {
@@ -1419,13 +1496,12 @@ namespace CppCLRWinFormsProject {
 				   MessageBox::Show("Не все элементы матрицы заполнены.", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 				   return;
 			   }
-			   double** tempFirstMatrix = CreateMatrix1M(rows, columns, textBoxes1M);
-			   double** tempTransMatrix = TransposeMatrix(rows, columns, tempFirstMatrix);
-			   DisplayMatrix(rows, columns, tempTransMatrix, textBoxesRM);
+			   TransposeMatrix(rows, columns, textBoxes1M, textBoxesRM);
 			   detLabel->Hide();
 		   }
 
 		   System::Void inverseMatrixClick(System::Object^ sender, System::EventArgs^ e) {
+			   this->detLabel->Show();
 			   this->detLabel->Text = "Обратная матрица\nне найдена.";
 			   textR11Box->Hide();
 			   textR12Box->Hide();
@@ -1507,5 +1583,6 @@ namespace CppCLRWinFormsProject {
 			   }
 		   }
 
-};
+
+	};
 }

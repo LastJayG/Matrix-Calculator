@@ -4,6 +4,15 @@
 using namespace System;
 using namespace System::Windows::Forms;
 
+
+bool IsMatrixConsistent(int rows1, int columns1, int rows2, int columns2) {
+    return (columns1 == rows2);
+}
+
+bool IsMatrixJoint(int rows1, int columns1, int rows2, int columns2) {
+    return (rows1 == rows2 && columns1 == columns2);
+}
+
 double FindDet(int rows, int columns, double** matrix)
 {
 
@@ -56,19 +65,6 @@ double FindDet(int rows, int columns, double** matrix)
     return determinant;
 }
 
-double** TransposeMatrix(int rows, int columns, double** matrix) {
-    double** transposedMatrix = new double* [columns];
-    for (int i = 0; i < columns; i++)
-    {
-        transposedMatrix[i] = new double[rows];
-        for (int j = 0; j < rows; j++)
-        {
-            transposedMatrix[i][j] = matrix[j][i];
-        }
-    }
-    return transposedMatrix;
-}
-
 double** InverseMatrix(int rows, int columns, double** matrix, double determinant) {
     double** adjMatrix = new double* [rows];
     for (int i = 0; i < rows; i++) {
@@ -105,13 +101,6 @@ double** InverseMatrix(int rows, int columns, double** matrix, double determinan
     return adjMatrix;
 }
 
-bool IsMatrixConsistent(int rows1, int columns1, int rows2, int columns2) {
-    return (columns1 == rows2);
-}
-
-bool IsMatrixJoint(int rows1, int columns1, int rows2, int columns2) {
-    return (rows1 == rows2 && columns1 == columns2);
-}
 
 double** SumMatrices(int rows, int columns, double** matrix1, double** matrix2) {
     double** result = new double* [rows];
